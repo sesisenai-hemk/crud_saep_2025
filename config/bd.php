@@ -5,12 +5,12 @@
     $senha = "root";
     $dbname = "saep_db";
 
-    $conn = new mysqli($servidor, $usuario, $senha, $dbname);
+    $conexao = new mysqli($servidor, $usuario, $senha, $dbname);
 
     // Verificar conexão
-    if ($conn->connect_error) {
-        die("Falha na conexão: " . $conn->connect_error);    
+    if ($conexao->connect_error) {
+        die("Falha na conexão: " . $conexao->connect_error);    
     }
 
-    $conn->set_charset("utf8");
+    $conexao->set_charset("utf8");
 ?> 
