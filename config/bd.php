@@ -2,7 +2,7 @@
 
     $servidor = "localhost";
     $usuario = "root";
-    $senha = "";
+    $senha = "root";
     $dbname = "saep_db";
 
     $conn = new mysqli($servidor, $usuario, $senha, $dbname);
@@ -13,4 +13,4 @@
     }
 
     $conn->set_charset("utf8");
-?>
+?> 

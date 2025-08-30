@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-    <h1> LOGIN - SAEP </h1>
+    <h1 class="title" > LOGIN - SAEP </h1>
     <form method="POST" action="">
         <label> Email: </label>
         <input type="text" name="email" required> <br>
