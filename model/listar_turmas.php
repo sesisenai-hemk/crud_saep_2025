@@ -1,7 +1,7 @@
 <?php
 require_once ("../config/bd.php");
 
-$sql = "SELECT * FROM turmas WHERE id_turma = 1";
+$sql = "SELECT * FROM turmas WHERE id_turma = ";
 $resultado = $conexao->query($sql);
 
 if ($resultado && $resultado->num_rows > 0) {
