@@ -3,7 +3,7 @@
     $servidor = "localhost";
     $usuario = "root";
     $senha = "root";
-    $dbname = "saep_db";
+    $dbname = "saep_db_hemk";
 
     $conexao = new mysqli($servidor, $usuario, $senha, $dbname);
 
